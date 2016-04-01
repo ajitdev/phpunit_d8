@@ -9,6 +9,7 @@
 namespace Drupal\Tests\phpunit_d8\Unit;
 
 use Drupal\Tests\UnitTestCase;
+
 use Drupal\phpunit_d8\Math;
 
 /**
@@ -18,7 +19,10 @@ use Drupal\phpunit_d8\Math;
  * @group math
  */
 class MathTest extends UnitTestCase {
-  public function addNumTest() {
+  /**
+   * Very simple test to MathTest::addNum().
+   */
+  public function testAddNum() {
     $math = new Math();
     $this->assertEquals($math->addNum(1,2,3), 6);
   }

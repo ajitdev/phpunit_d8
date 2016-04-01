@@ -1,14 +1,18 @@
 <?php
 
 /**
- * Created by PhpStorm.
- * User: ajit
- * Date: 4/1/16
- * Time: 3:47 PM
+ * @file
+ * Contains Drupal\phpunit_d8\Math
  */
 
 namespace Drupal\phpunit_d8;
 
+/**
+ * Class Math
+ * @package Drupal\phpunit_d8
+ *
+ * @ingroup math
+ */
 class Math {
   public function addNum($a, $b, $c) {
     return $a + $b + $c;
