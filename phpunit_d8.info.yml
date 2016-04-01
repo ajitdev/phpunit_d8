@@ -1,0 +1,4 @@
+name: PHPUnit test with D8
+description: 'Module contains'
+type: module
+core: 8.x
