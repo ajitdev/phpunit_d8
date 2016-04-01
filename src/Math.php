@@ -10,7 +10,7 @@
 namespace Drupal\phpunit_d8;
 
 class Math {
-  public function add($a, $b, $c) {
+  public function addNum($a, $b, $c) {
     return $a + $b + $c;
   }
 
