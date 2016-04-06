@@ -6,6 +6,7 @@
  */
 
 namespace Drupal\phpunit_d8;
+use Behat\Mink\Exception\Exception;
 
 /**
  * Class Math
